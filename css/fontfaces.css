@@ -1,0 +1,9 @@
+@font-face{
+	font-family: titlefont;
+	src:url("../font/Elevation.ttf");
+}
+
+@font-face{
+	font-family: narrowfont;
+	src:url("../font/YanoneKaffeesatz-Thin.otf")
+}

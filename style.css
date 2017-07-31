@@ -1,0 +1,222 @@
+/*
+Theme Name: Bafuncs Theme
+Description: Child theme for the Bootstrap Canvas theme
+Author: Na Bassett
+Author URI: http://nabassett.com
+Template: bootstrap-canvas-wp
+*/
+
+@import url("css/fontfaces.css");
+/*@import url("../bootstrap-canvas-wp/style.css");*/
+
+body {
+	background-image: url(//livedemo00.template-help.com/wordpress_52702/wp-content/themes/theme52702/images/bg_body.png);
+	background-repeat: repeat;
+	background-position: top center;
+	background-attachment: scroll;
+	font-size: 16px;
+	font-weight: normal;
+	color: #909090;
+	background-color: #333f3f;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font: normal 48px/48px "titlefont", "Trebuchet MS",Arial,Helvetica,sans-serif !important;
+	color: #fff;
+}
+
+
+h2 {
+	font: normal 36px/50px "narrowfont","Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #414141;
+}
+
+h3 {
+	font: normal 32px/40px "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #414141;
+	margin-bottom: 1em;
+}
+h4 {
+	font: bold 16px/18px "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #414141;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h5 {
+	font: normal 36px/48px "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #414141;
+}
+p {
+	font-weight: thin;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+h6 {
+	font: normal 18px/24px "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #fff;
+}
+
+h7 {
+	font: normal 24px/28px "narrowfont","Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #414141;
+	font-style: italic;
+}
+
+hr{
+    margin: 18px 40px 10px 0px;
+    border: 0;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #f2f2f5;
+}
+
+.custom-logo {
+	margin:0 !important;
+}
+
+.custom-logo-link {
+    visibility: visible;
+    opacity: 1;
+    top: 30px;
+    right: 0px;
+    position: absolute;
+    -webkit-transition:visibility 0s, opacity .5s ease;
+	-moz-transition:visibility 0s, opacity .5s ease;
+	-o-transition:visibility 0s, opacity .5s ease;
+    transition: visibility 0s, opacity .5s ease;
+}
+
+.custom-logo-link img {
+    max-height: 80px;
+    height: auto;
+	width: auto;
+}
+
+@media (min-width: 979px) and (max-width: 1210px) {
+  .custom-logo-link {
+    opacity: 0 !important;
+    -webkit-transition:opacity  .3s ease;
+	  -moz-transition: opacity  .3s ease;
+	  -o-transition: opacity  .3s ease;
+    transition:  opacity  .3s ease;
+  }
+}
+
+@media (max-width: 520px) {
+  .custom-logo-link {
+    opacity: 0 !important;
+    -webkit-transition: opacity  .3s ease;
+	  -moz-transition: opacity  .3s ease;
+	  -o-transition: opacity  .3s ease;
+    transition:  opacity  .3s ease;
+  }
+}
+
+.blog-title {
+	color: #fff !important;
+	margin: 0;
+}
+
+.logo_h__txt, .logo_link {
+	font: normal 48px/30px Arial,Helvetica,sans-serif;
+	color: #ffffff;
+}
+.sf-menu > li > a {
+	font: normal 18px/30px "narrowfont","Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #ffffff;
+}
+.sf-menu li li a {
+	font: normal 16px/18px "narrowfont","Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+.select-menu {
+	font:normal 18px "narrowfont","Trebuchet MS",Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+}
+.nav.footer-nav a {
+	font: normal 12px/30px Arial,Helvetica,sans-serif;
+	color: #80878e;
+}
+
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px solid #f7e700;
+}
+
+span.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip { 
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
+
+.sf-menu > li.current_page_item > a:after {
+	visibility: hidden;
+}
