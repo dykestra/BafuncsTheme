@@ -156,7 +156,9 @@
                         echo '<h3><a href="' . $url . '">' . get_sub_field('name') . '</a></h3>';
                         echo get_sub_field('description');
                         echo '<p>';
-                        echo '<a href="' . get_sub_field('hyperlink') . '" class="btn btn-primary">Website</a>';
+                        if(get_sub_field('hyperlink')) {
+							echo '<a href="' . get_sub_field('hyperlink') . '" class="btn btn-primary">Website</a>';
+						}
                         if(get_sub_field('more_info_link')) {
                             echo '&nbsp;<a href="' . get_sub_field('more_info_link') . '" class="btn btn-primary">More Info</a>';
                         }
