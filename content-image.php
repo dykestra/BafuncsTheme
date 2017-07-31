@@ -9,6 +9,7 @@
     <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
         <img src="" data-src="<?php the_post_thumbnail_url(); ?>">
     </a>
+    <p class="caption" style="text-align:center;"><?php the_post_thumbnail_caption(); ?></p>
 </figure>
 <?php endif; ?>
 
