@@ -2,12 +2,13 @@
 @import url("fontfaces.css");
 
 /*@import url(//fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic);*/
-.caption {
+.caption, .wp-caption p.wp-caption-text  {
 	font-style: italic;
 	font-family: narrowfont, Arial, Helvetica, sans-serif;
 	padding-top: 0 !important;
+	font-size: 16px;
 }
-.caption a {
+.caption a, .wp-caption p.wp-caption-text a {
 	display: inline !important;
 	text-align: left;
 }
