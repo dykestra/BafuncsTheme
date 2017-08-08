@@ -1032,15 +1032,15 @@ background-color:#373d43 !important;
 .service-box .btn-align { text-align:center; }
 .service-box .btn-align .btn { margin:0 !important; }
 .content_box.box-1 {
-	padding:99px 0 94px;
+	padding:50px 0 50px;
 	background:none;
 	color:#fff;
 }
 .content_box.box-1.style-1 { margin-top:80px; }
 .content_box.box-1.style-1 h1 { margin-bottom:35px; }
 .content_box.box-1.style-2 {
-	margin-top:80px;
-	padding-bottom:60px;
+	margin-top:40px;
+	padding-bottom:30px;
 }
 .content_box.box-1 p { 
 	/*font:18px/24px "Trebuchet MS", Arial, Helvetica, sans-serif; */
