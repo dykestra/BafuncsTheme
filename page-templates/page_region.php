@@ -24,6 +24,7 @@ get_header(); ?>
                         <?php echo get_field('main_text'); ?>
                     </div>
                 </div>
+                <?php get_img_paragraphs(); ?>
                 <div class="row">
                     <?php get_officials_list(); ?>
                 </div>
