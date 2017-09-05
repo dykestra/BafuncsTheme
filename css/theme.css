@@ -1072,8 +1072,7 @@ background-color:#373d43 !important;
 	margin-bottom:24px !important;
 }
 .content_box.box-2 {
-	padding:60px 0 84px;
-	background-color:#fff;
+	padding:30px 0 84px;
 }
 .content_box.box-2.par_inn { padding-bottom:0; }
 .content_box.box-2:after { display:none; }
